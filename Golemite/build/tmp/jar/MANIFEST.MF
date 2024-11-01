@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: exodium
+Specification-Vendor: exodiumsareus
+Specification-Version: 1
+Implementation-Title: Golemite
+Implementation-Version: 1.0
+Implementation-Vendor: exodiumsareus
+Implementation-Timestamp: 2024-11-01T20:20:21+0100
+
