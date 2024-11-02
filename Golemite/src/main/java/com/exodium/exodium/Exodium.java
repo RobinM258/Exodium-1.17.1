@@ -16,7 +16,7 @@ import org.apache.logging.log4j.Logger;
 @Mod(Exodium.MOD_ID)
 public class Exodium
 {
-    public static final String MOD_ID = "palasolo";
+    public static final String MOD_ID = "exodium";
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
@@ -36,9 +36,5 @@ public class Exodium
 
     private void setup(final FMLCommonSetupEvent event)
     {
-        // some preinit code
-        LOGGER.info("HELLO FROM PREINIT");
-        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
-        //ItemBlockRenderTypes.setRenderLayer(ModBlocks.CAVE_BLOCK.get(), RenderType.translucent());
     }
 }

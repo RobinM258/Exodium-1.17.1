@@ -12,8 +12,8 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Exodium.MOD_ID);
 
-    public static final RegistryObject<Item> EXODIUM_INGOT = ITEMS.register("exodium_ingot",
-            ()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    //public static final RegistryObject<Item> EXODIUM_INGOT = ITEMS.register("exodium_ingot",
+      //      ()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 
     public static void register(IEventBus eventBus) {
