@@ -1,6 +1,7 @@
 package com.exodium.exodium.block;
 
 import com.exodium.exodium.Exodium;
+import com.exodium.exodium.item.ExodiumCreativeModeTab;
 import com.exodium.exodium.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -30,7 +31,7 @@ public class ModBlocks {
     }
     private static <T extends Block> void registerBlockItem(String name, Supplier<T> block) {
         ModItems.ITEMS.register(name, ()-> new BlockItem(block.get(),
-                new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+                new Item.Properties().tab(ExodiumCreativeModeTab.EXODIUM_TAB)));
     }
 
     public static void register(IEventBus eventBus) {
