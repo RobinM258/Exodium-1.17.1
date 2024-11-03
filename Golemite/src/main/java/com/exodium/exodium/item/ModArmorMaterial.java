@@ -11,14 +11,18 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.ItemLike;
 
 import java.util.function.Supplier;
-
+//Premiere valeur determine le multiplicateur de la durabilité de l'armure
+//Le tableau de int est la valeur de protection de chaque piece d'armure
+//Troisième valeur est la capacité d'enchantement (on s'en fou)
+//Quatrième valeur c'est l'armor Toughness
+//Cinquième valeur de résistance au kb
 public enum ModArmorMaterial implements ArmorMaterial {
-    EXODIUM("exodium", 40, new int[]{3, 6, 8, 3}, 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 4.0F, 0.2F, () -> {
+    EXODIUM("exodium", 1, new int[]{5, 6, 6, 5}, 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 4.0F, 0.0F, () -> {
         return Ingredient.of(new ItemLike[]{ModItems.EXODIUM_INGOT.get()});
         //etc...
     });
 
-    private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11}; // {boots, legging, chestplate, helmet}
+    private static final int[] HEALTH_PER_SLOT = new int[]{3380, 3900, 4160, 2860}; // {boots, legging, chestplate, helmet} Durabilité de chaque piece d'armure a multiplié par la première valeur au dessus
     private final String name;
     private final int durabilityMultiplier;
     private final int[] slotProtections;

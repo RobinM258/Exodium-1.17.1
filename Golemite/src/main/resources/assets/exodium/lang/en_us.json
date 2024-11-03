@@ -1,8 +1,16 @@
 {
   "block.exodium.exodium_block": "Exodium Block",
+  "block.exodium.xray_block": "Xray Block",
 
   "item.exodium.exodium_ingot": "Exodium Ingot",
-  "item.exodium.power_stick": "Power stick",
+
+  "item.exodium.exodium_helmet": "Exodium Helmet",
+  "item.exodium.exodium_chestplate": "Exodium Chestplate",
+  "item.exodium.exodium_leggings": "Exodium Leggings",
+  "item.exodium.exodium_boots": "Exodium Boots",
+
+  "item.exodium.exodium_sword": "Exodium Sword",
+  "item.exodium.power_stick": "Power Stick",
 
   "itemGroup.exodiumModTab": "Exodium Tab"
 }

@@ -39,6 +39,6 @@ public class Exodium
         // some preinit code
         LOGGER.info("HELLO FROM PREINIT");
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
-        //ItemBlockRenderTypes.setRenderLayer(ModBlocks.CAVE_BLOCK.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.XRAY_BLOCK.get(), RenderType.translucent());
     }
 }

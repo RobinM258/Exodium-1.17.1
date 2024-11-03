@@ -1,5 +1,6 @@
 package com.exodium.exodium.item.custom;
 
+import net.minecraft.network.chat.TextComponent;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -22,7 +23,7 @@ public class StrenghtStickItem extends Item{
             ItemStack itemstack = player.getItemInHand(hand);
 
             if (!world.isClientSide) {
-                player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 60, 3));
+                player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 60, 2));
                 player.getCooldowns().addCooldown(this, 280);
                 itemstack.hurtAndBreak(1, player, p -> {
                     p.broadcastBreakEvent(player.getUsedItemHand());
