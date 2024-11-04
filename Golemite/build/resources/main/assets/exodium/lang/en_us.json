@@ -11,7 +11,11 @@
   "item.exodium.exodium_boots": "Exodium Boots",
 
   "item.exodium.exodium_sword": "Exodium Sword",
+  "item.exodium.cheated_word": "Dev Sword",
+
   "item.exodium.power_stick": "Power Stick",
+  "item.exodium.stick_of_god": "Stick of God",
+  "item.exodium.heal_stick": "Heal Stick",
 
   "itemGroup.exodiumModTab": "Exodium Tab"
 }
