@@ -28,6 +28,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> XRAY_BLOCK = registerBlock("xray_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.GLASS).strength(5f).requiresCorrectToolForDrops()));
 
+    //OBSIDIAN
+    public static final RegistryObject<Block> LAVA_OBSIDIAN = registerBlock("lava_obsidian",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(3000f).requiresCorrectToolForDrops()));
+
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

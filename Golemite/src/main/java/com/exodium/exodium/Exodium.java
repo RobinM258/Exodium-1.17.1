@@ -1,6 +1,7 @@
 package com.exodium.exodium;
 
 import com.exodium.exodium.block.ModBlocks;
+import com.exodium.exodium.event.WitherBreakBlockEvent;
 import com.exodium.exodium.item.ModItems;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
@@ -32,6 +33,7 @@ public class Exodium
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+        MinecraftForge.EVENT_BUS.register(WitherBreakBlockEvent.class);
     }
 
     private void setup(final FMLCommonSetupEvent event)
