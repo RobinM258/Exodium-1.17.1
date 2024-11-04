@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model":  "exodium:block/xray_block" }
+  }
+}
