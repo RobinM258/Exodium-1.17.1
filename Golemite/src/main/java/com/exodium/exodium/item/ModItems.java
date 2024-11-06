@@ -2,6 +2,7 @@ package com.exodium.exodium.item;
 
 import com.exodium.exodium.Exodium;
 import com.exodium.exodium.item.custom.HealStick;
+import com.exodium.exodium.item.custom.MagicalTool;
 import com.exodium.exodium.item.custom.StickOfGod;
 import com.exodium.exodium.item.custom.StrenghtStickItem;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -28,6 +29,8 @@ public class ModItems {
             () -> new StickOfGod(new Item.Properties().tab(ExodiumCreativeModeTab.EXODIUM_TAB).durability(8)));
     public static final RegistryObject<Item> HEAL_STICK = ITEMS.register("heal_stick",
             () -> new HealStick(new Item.Properties().tab(ExodiumCreativeModeTab.EXODIUM_TAB).durability(15)));
+    public static final RegistryObject<Item> MAGICAL_TOOL = ITEMS.register("magical_tool",
+            () -> new MagicalTool(new Item.Properties().tab(ExodiumCreativeModeTab.EXODIUM_TAB)));
 
     //TOOLS
     public static final RegistryObject<Item> EXODIUM_SWORD = ITEMS.register("exodium_sword", () -> new SwordItem(ExodiumTiers.EXODIUM,
@@ -48,7 +51,6 @@ public class ModItems {
                     new Item.Properties().tab(ExodiumCreativeModeTab.EXODIUM_TAB)));
 
     //DEV
-
     public static final RegistryObject<Item> CHEATED_SWORD = ITEMS.register("cheated_sword",
             () -> new SwordItem(ExodiumTiers.EXODIUM, 10000,10f,
                     new Item.Properties().tab(ExodiumCreativeModeTab.EXODIUM_TAB)));

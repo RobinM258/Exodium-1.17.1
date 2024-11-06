@@ -30,7 +30,9 @@ public class ModBlocks {
 
     //OBSIDIAN
     public static final RegistryObject<Block> LAVA_OBSIDIAN = registerBlock("lava_obsidian",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(3000f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(-1f).noDrops()));
+    public static final RegistryObject<Block> BIG_OBSIDIAN = registerBlock("big_obsidian",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(-1f).noDrops()));
 
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {

@@ -16,7 +16,7 @@ import net.minecraftforge.fml.common.Mod;
 import java.util.HashMap;
 import java.util.Map;
 
-@Mod.EventBusSubscriber(modid = "palasolo")
+@Mod.EventBusSubscriber(modid = "exodium")
 public class WitherBreakBlockEvent {
 
     // Pour suivre le dernier temps où le Wither a subi des dégâts

@@ -22,8 +22,8 @@ public class StickOfGod extends Item{
             if (!world.isClientSide) {
                 player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 60, 2));
                 player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 60, 4));
-                player.addEffect(new MobEffectInstance(MobEffects.SATURATION, 240, 2));
-                player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 60, 1));
+                player.addEffect(new MobEffectInstance(MobEffects.SATURATION, 240, 1));
+                player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 60, 0));
                 player.getCooldowns().addCooldown(this, 280);
                 itemstack.hurtAndBreak(1, player, p -> {
                     p.broadcastBreakEvent(player.getUsedItemHand());
