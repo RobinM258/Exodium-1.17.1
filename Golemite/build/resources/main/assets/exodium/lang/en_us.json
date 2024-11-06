@@ -1,7 +1,8 @@
 {
   "block.exodium.exodium_block": "Exodium Block",
   "block.exodium.xray_block": "Xray Block",
-  "block.exodium.xray_block": "Lava Obsidian",
+  "block.exodium.lava_obsidian": "Lava Obsidian",
+  "block.exodium.big_obsidian": "Big Obsidian",
 
   "item.exodium.exodium_ingot": "Exodium Ingot",
 
@@ -11,7 +12,12 @@
   "item.exodium.exodium_boots": "Exodium Boots",
 
   "item.exodium.exodium_sword": "Exodium Sword",
+  "item.exodium.cheated_sword": "Dev Sword",
+  "item.exodium.magical_tool": "Magical Tool",
+
   "item.exodium.power_stick": "Power Stick",
+  "item.exodium.stick_of_god": "Stick of God",
+  "item.exodium.heal_stick": "Heal Stick",
 
   "itemGroup.exodiumModTab": "Exodium Tab"
 }
