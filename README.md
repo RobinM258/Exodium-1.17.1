@@ -17,10 +17,3 @@
 * ⚙️ **Blocs :** Blocs personnalisés pour la protection de base.
 
 ---
-
-## 📥 Installation
-
-1. Télécharge et installe **Forge** pour la version **1.17.1**.
-2. Télécharge la dernière version d'**Exodium**.
-3. Place le fichier `.jar` téléchargé dans le dossier `mods` de ton répertoire Minecraft (`.minecraft/mods`).
-4. Lance ton jeu et amuse-toi !
